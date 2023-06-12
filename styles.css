@@ -1,11 +1,32 @@
+
 body{
     display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .main{
     width:800px;
     height:800px;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.row{
+    display:flex;
+    flex:1;
+    gap: 1px;
+}
+
+.cell{
+    flex:1;
+    border: 1px solid black;
+}
+
+.hover{
+    background-color: black;
 }
